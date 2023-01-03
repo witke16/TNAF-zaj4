@@ -8,7 +8,7 @@ const RekordText = document.querySelector("#record");
 const ppcTEXT = document.querySelector("#ppc");
 const ppsText = document.querySelector("#pps");
 
-let upgradeLevel = [0,0,0,0,0,0,0];
+let upgradeLevel = [-1,0,0,0,0,0,0];
 let upgradeCost = [-1,10, 100,1000,5000,100000,100]; // -1 zarezerwowane 0 miejsce w tabeli
 
 // event listenery na obiekty klikera i buttonow upgradu
@@ -24,7 +24,7 @@ let upgradeCost = [-1,10, 100,1000,5000,100000,100]; // -1 zarezerwowane 0 miejs
     button1.addEventListener("click", () => UpgradeParams(1));
     button2.addEventListener("click",() => UpgradeParams(2));
     button3.addEventListener("click",() => UpgradeParams(3));
-    button4.addEventListener("click",() => UpgradeParams(5));
+    button4.addEventListener("click",() => UpgradeParams(4));
     button5.addEventListener("click",() => UpgradeParams(5));
     button6.addEventListener("click",() => UpgradeParams(6));
 
