@@ -24,19 +24,67 @@
                 </button>
 
             <div class="infos" name="infos">
+                 Record: <span id="record">0.00</span>
+                 Cookies per second: <span id="pps">1.00</span>
+                 Cookies per click: <span id="ppc">1.00</span>
+
 
             </div>
     
 
         </div>
         <div class="appbox_right">
-            <button class="button" id="button1" >+0.01 Point per Second (10)</button>
-            <button class="button"  id="button2">+0.1 Point per Second(80)</button>
-            <button class="button" id="button3" >+1 Point per Second(250)</button>
-            <button class="button" id="button4" >+10 Point per Second(750)</button>
-            <button class="button" id="button5">+100 Point per Second(3000)</button>
-            <button class="button" id="button6">+10% Point per Click</button>
-
+            <div class="upgrades">
+                <div class="upgrade">
+                    <div >
+                            Upgrade +0.1
+                        <div class="upgrade_description">Cost: <span id="upgrade1CookiesPerSecond">10</span></div>
+                        <div class="upgrade_description">Level: <span id="upgrade1Level">0</span></div>
+                    </div>
+                    <button id="upgrade1Button">Upgrade</button>
+                </div>
+    
+                <div class="upgrade">
+                    <div>
+                        Upgrade +1
+                        <div class="upgrade_description">Cost: <span id="upgrade2CookiesPerSecond">100</span></div>
+                        <div class="upgrade_description">Level: <span id="upgrade2Level">0</span></div>
+                    </div>
+                    <button id="upgrade2Button">Upgrade</button>
+                </div>
+    
+                <div class="upgrade">
+                    <div>
+                        Upgrade +5
+                        <div class="upgrade_description">Cost: <span id="upgrade3CookiesPerSecond">1000</span></div>
+                        <div class="upgrade_description">Level: <span id="upgrade3Level">0</span></div>
+                    </div>
+                    <button id="upgrade3Button">Upgrade</button>
+                </div>
+                 <div class="upgrade">
+                    <div>
+                        Upgrade +10
+                        <div class="upgrade_description">Cost: <span id="upgrade4CookiesPerSecond">5000</span></div>
+                        <div class="upgrade_description">Level: <span id="upgrade4Level">0</span></div>
+                    </div>
+                    <button id="upgrade4Button">Upgrade</button>
+                </div>
+                 <div class="upgrade">
+                    <div>
+                        Upgrade +100
+                        <div class="upgrade_description">Cost: <span id="upgrade5CookiesPerSecond">100000</span></div>
+                        <div class="upgrade_description">Level: <span id="upgrade5Level">0</span></div>
+                    </div>
+                    <button id="upgrade5Button">Upgrade</button>
+                </div>
+                <div class="upgrade">
+                    <div>
+                        Upgrade +10% click
+                        <div class="upgrade_description">Cost: <span id="upgrade6CookiesPerSecond">100</span></div>
+                        <div class="upgrade_description">Level: <span id="upgrade6Level">0</span></div>
+                    </div>
+                    <button id="upgrade6Button">Upgrade</button>
+                </div>
         </div>
       
     </div>
