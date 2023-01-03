@@ -8,8 +8,8 @@ const RekordText = document.querySelector("#record");
 const ppcTEXT = document.querySelector("#ppc");
 const ppsText = document.querySelector("#pps");
 
-let upgradeLevel = [0,0,0,0,0,0];
-let upgradeCost = [-1,10, 100,1000,5000,100000,500]; // -1 zarezerwowane 0 miejsce w tabeli
+let upgradeLevel = [0,0,0,0,0,0,0];
+let upgradeCost = [-1,10, 100,1000,5000,100000,100]; // -1 zarezerwowane 0 miejsce w tabeli
 
 // event listenery na obiekty klikera i buttonow upgradu
     const clicker =  document.querySelector(".clicker");

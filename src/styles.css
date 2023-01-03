@@ -16,10 +16,7 @@
     -webkit-animation: bg-pan-left 25s infinite both;
 	        animation: bg-pan-left 25s infinite both;
  align-content: left;
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
+
  padding: 10px;
  margin: 10px 10px 10px 10px;
  padding: 20px 20px 20px 20px;
@@ -28,7 +25,13 @@
 
 
 }
-
+p
+{
+    text-align: end;
+    position: fixed;
+    left: 47.6%;
+    bottom: 0.5px;
+}
 .appbox_left 
 {
 
@@ -39,6 +42,14 @@
  align-items: center;
     padding: 50px;
 
+
+}
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
 
 }
 .clicker_text {
